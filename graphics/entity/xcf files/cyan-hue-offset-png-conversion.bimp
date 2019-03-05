@@ -1,0 +1,23 @@
+#BIMP 1.18
+#MANIPULATION SET DEFINITION
+
+[USERDEF0]
+procedure=gimp-hue-saturation
+num_params=5
+PARAM0=NOT_USED
+PARAM1=4
+PARAM2=-180
+PARAM3=0
+PARAM4=0
+
+[CHANGEFORMAT]
+format=4
+interlace=false
+compression=0
+savebgc=true
+savegamma=false
+saveoff=false
+savephys=true
+savetime=true
+savecomm=true
+savetrans=true
