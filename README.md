@@ -1,2 +1,2 @@
 # UltimateBelts
-This is for a mod, called Ultimate Belts, created for factorio
+This is for a mod, called Ultimate Belts, created for Factorio
