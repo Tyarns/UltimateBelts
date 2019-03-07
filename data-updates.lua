@@ -1,7 +1,0 @@
---Remove production science pack requirement from logistics 3. Makes belts somewhat viable compared to bots for mid-game (using bob's mods ofc).
-data.raw["technology"]["logistics-3"].unit.ingredients =
-     {
-       {"science-pack-1", 1},
-       {"science-pack-2", 1},
-	   {"science-pack-3", 1},
-     }
