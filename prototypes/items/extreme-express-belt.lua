@@ -156,7 +156,6 @@ extreme_express_belt_starting_side =
     name = "extreme-express-belt",
     icon = "__UltimateBelts__/graphics/icons/extreme-express-belts/ultimate-transport-belt.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
     subgroup = "belt",
     order = "a[transport-belt]-g[extreme-express-belt]",
     place_result = "extreme-express-belt",
