@@ -1,11 +1,11 @@
 {
     "name": "UltimateBelts",
-    "version": "0.16.4",
+    "version": "0.17.0",
     "title": "Ultimate Belts",
     "author": "Tyarns",
     "contact": "",
     "homepage": "",
-    "factorio_version": "0.16",
-    "dependencies": ["base >= 0.16"],
+    "factorio_version": "0.17",
+    "dependencies": ["base >= 0.17"],
     "description": "This mod adds an additional five tiers of belts to the game, beyond what is currently available from other mods. The fastest belt in this mod is equivalent to 6 express belts."
 }

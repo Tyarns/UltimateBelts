@@ -156,7 +156,6 @@ ultimate_belt_starting_side =
     name = "ultimate-belt",
     icon = "__UltimateBelts__/graphics/icons/ultimate-belts/ultimate-transport-belt.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
     subgroup = "belt",
     order = "a[transport-belt]-h[ultimate-transport-belt]",
     place_result = "ultimate-belt",
