@@ -38,7 +38,7 @@
       },
       max_sounds_per_type = 3
     },
-    animation_speed_coefficient = 16,
+    animation_speed_coefficient = 32,
     belt_animation_set = 
     {
       animation_set = 
