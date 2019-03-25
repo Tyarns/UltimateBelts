@@ -1,154 +1,3 @@
-ultra_fast_belt_horizontal =
-  {
-    filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-transport-belt.png",
-    priority = "extra-high",
-    width = 40,
-    height = 40,
-    frame_count = 16,
-    hr_version =
-    {
-      filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-transport-belt.png",
-      priority = "extra-high",
-      width = 80,
-      height = 80,
-      scale = 0.5,
-      frame_count = 16
-    }
-  }
-ultra_fast_belt_vertical =
-  {
-    filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-transport-belt.png",
-    priority = "extra-high",
-    width = 40,
-    height = 40,
-    frame_count = 16,
-    y = 40,
-    hr_version =
-    {
-      filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-transport-belt.png",
-      priority = "extra-high",
-      width = 80,
-      height = 80,
-      frame_count = 16,
-      scale = 0.5,
-      y = 80
-    }
-  }
-ultra_fast_belt_ending_top =
-  {
-    filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-transport-belt.png",
-    priority = "extra-high",
-    width = 40,
-    height = 40,
-    frame_count = 16,
-    y = 80,
-    hr_version =
-    {
-      filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-transport-belt.png",
-      priority = "extra-high",
-      width = 80,
-      height = 80,
-      frame_count = 16,
-      y = 160,
-      scale = 0.5
-    }
-  }
-ultra_fast_belt_ending_bottom =
-  {
-    filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-transport-belt.png",
-    priority = "extra-high",
-    width = 40,
-    height = 40,
-    frame_count = 16,
-    y = 120,
-    hr_version =
-    {
-      filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-transport-belt.png",
-      priority = "extra-high",
-      width = 80,
-      height = 80,
-      frame_count = 16,
-      y = 240,
-      scale = 0.5
-    }
-  }
-ultra_fast_belt_ending_side =
-  {
-    filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-transport-belt.png",
-    priority = "extra-high",
-    width = 40,
-    height = 40,
-    frame_count = 16,
-    y = 160,
-    hr_version =
-    {
-      filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-transport-belt.png",
-      priority = "extra-high",
-      width = 80,
-      height = 80,
-      frame_count = 16,
-      y = 320,
-      scale = 0.5
-    }
-  }
-
-ultra_fast_belt_starting_top =
-  {
-    filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-transport-belt.png",
-    priority = "extra-high",
-    width = 40,
-    height = 40,
-    frame_count = 16,
-    y = 200,
-    hr_version =
-    {
-      filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-transport-belt.png",
-      priority = "extra-high",
-      width = 80,
-      height = 80,
-      frame_count = 16,
-      y = 400,
-      scale = 0.5
-    }
-  }
-ultra_fast_belt_starting_bottom =
-  {
-    filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-transport-belt.png",
-    priority = "extra-high",
-    width = 40,
-    height = 40,
-    frame_count = 16,
-    y = 240,
-    hr_version =
-    {
-      filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-transport-belt.png",
-      priority = "extra-high",
-      width = 80,
-      height = 80,
-      frame_count = 16,
-      y = 480,
-      scale = 0.5
-    }
-  }
-ultra_fast_belt_starting_side =
-  {
-    filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-transport-belt.png",
-    priority = "extra-high",
-    width = 40,
-    height = 40,
-    frame_count = 16,
-    y = 280,
-    hr_version =
-    {
-      filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-transport-belt.png",
-      priority = "extra-high",
-      width = 80,
-      height = 80,
-      frame_count = 16,
-      y = 560,
-      scale = 0.5
-    }
-  }
  data:extend(
 {
   {
@@ -189,35 +38,58 @@ ultra_fast_belt_starting_side =
       },
       max_sounds_per_type = 3
     },
-    animation_speed_coefficient = 16,
-    animations =
+    animation_speed_coefficient = 32,
+    belt_animation_set = 
     {
-      filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-transport-belt.png",
-      priority = "extra-high",
-      width = 40,
-      height = 40,
-      frame_count = 16,
-      direction_count = 12,
-      hr_version =
+      animation_set = 
       {
-        filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-transport-belt.png",
+        filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-transport-belt.png",
         priority = "extra-high",
-        width = 80,
-        height = 80,
-        scale = 0.5,
-        frame_count = 16,
-        direction_count = 12
-      }
+        width = 64,
+        height = 64,
+        frame_count = 32,
+        direction_count = 20,
+        hr_version =
+        {
+          filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-transport-belt.png",
+          priority = "extra-high",
+          width = 128,
+          height = 128,
+          scale = 0.5,
+          frame_count = 32,
+          direction_count = 20
+        }
+      },
+
+      east_index = 1,
+      west_index = 2,
+      north_index = 3,
+      south_index = 4,
+
+      east_to_north_index = 5,
+      north_to_east_index = 6,
+
+      west_to_north_index = 7,
+      north_to_west_index = 8,
+
+      south_to_east_index = 9,
+      east_to_south_index = 10,
+
+      south_to_west_index = 11,
+      west_to_south_index = 12,
+
+      starting_south_index = 13,
+      ending_south_index = 14,
+
+      starting_west_index = 15,
+      ending_west_index = 16,
+
+      starting_north_index = 17,
+      ending_north_index = 18,
+
+      starting_east_index = 19,
+      ending_east_index = 20
     },
-    belt_horizontal = ultra_fast_belt_horizontal,
-    belt_vertical = ultra_fast_belt_vertical,
-    ending_top = ultra_fast_belt_ending_top,
-    ending_bottom = ultra_fast_belt_ending_bottom,
-    ending_side = ultra_fast_belt_ending_side,
-    starting_top = ultra_fast_belt_starting_top,
-    starting_bottom = ultra_fast_belt_starting_bottom,
-    starting_side = ultra_fast_belt_starting_side,
-    ending_patch = ending_patch_prototype,
     fast_replaceable_group = "transport-belt",
     speed = 0.1875,
     connector_frame_sprites = transport_belt_connector_frame_sprites,
