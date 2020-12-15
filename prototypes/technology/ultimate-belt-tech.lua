@@ -3,8 +3,8 @@ data:extend(
 {
 	type = "technology",
     name = "ultra-fast-logistics",
-    icon = "__base__/graphics/technology/logistics.png",
-    icon_size = 128,
+    icon = "__base__/graphics/technology/logistics-1.png",
+    icon_size = 256,
     effects =
     {
       {
@@ -38,8 +38,8 @@ data:extend(
 {
 	type = "technology",
     name = "extreme-fast-logistics",
-    icon = "__base__/graphics/technology/logistics.png",
-    icon_size = 128,
+    icon = "__base__/graphics/technology/logistics-1.png",
+    icon_size = 256,
     effects =
     {
       {
@@ -74,8 +74,8 @@ data:extend(
 {
 	type = "technology",
     name = "ultra-express-logistics",
-    icon = "__base__/graphics/technology/logistics.png",
-    icon_size = 128,
+    icon = "__base__/graphics/technology/logistics-1.png",
+    icon_size = 256,
     effects =
     {
       {
@@ -110,8 +110,8 @@ data:extend(
 {
 	type = "technology",
     name = "extreme-express-logistics",
-    icon = "__base__/graphics/technology/logistics.png",
-    icon_size = 128,
+    icon = "__base__/graphics/technology/logistics-1.png",
+    icon_size = 256,
     effects =
     {
       {
@@ -147,8 +147,8 @@ data:extend(
 {
 	type = "technology",
     name = "ultimate-logistics",
-    icon = "__base__/graphics/technology/logistics.png",
-    icon_size = 128,
+    icon = "__base__/graphics/technology/logistics-1.png",
+    icon_size = 256,
     effects =
     {
       {
