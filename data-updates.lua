@@ -6,6 +6,25 @@ data.raw["technology"]["logistics-3"].unit.ingredients =
        {"chemical-science-pack", 1},
      }
 
+-- make belts/splitters upgrade'able
+data.raw["transport-belt"]["express-transport-belt"].next_upgrade = "ultra-fast-belt"
+data.raw["transport-belt"]["ultra-fast-belt"].next_upgrade = "extreme-fast-belt"
+data.raw["transport-belt"]["extreme-fast-belt"].next_upgrade = "ultra-express-belt"
+data.raw["transport-belt"]["ultra-express-belt"].next_upgrade = "extreme-express-belt"
+data.raw["transport-belt"]["extreme-express-belt"].next_upgrade = "ultimate-belt"
+
+data.raw["underground-belt"]["express-underground-belt"].next_upgrade = "ultra-fast-underground-belt"
+data.raw["underground-belt"]["ultra-fast-underground-belt"].next_upgrade = "extreme-fast-underground-belt"
+data.raw["underground-belt"]["extreme-fast-underground-belt"].next_upgrade = "ultra-express-underground-belt"
+data.raw["underground-belt"]["ultra-express-underground-belt"].next_upgrade = "extreme-express-underground-belt"
+data.raw["underground-belt"]["extreme-express-underground-belt"].next_upgrade = "original-ultimate-underground-belt"
+
+data.raw["splitter"]["express-splitter"].next_upgrade = "ultra-fast-splitter"
+data.raw["splitter"]["ultra-fast-splitter"].next_upgrade = "extreme-fast-splitter"
+data.raw["splitter"]["extreme-fast-splitter"].next_upgrade = "ultra-express-splitter"
+data.raw["splitter"]["ultra-express-splitter"].next_upgrade = "extreme-express-splitter"
+data.raw["splitter"]["extreme-express-splitter"].next_upgrade = "original-ultimate-splitter"
+
 if deadlock then
   --t1
   deadlock.add_tier({
